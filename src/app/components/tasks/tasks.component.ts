@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { TaskService } from '../../services/task.service';
-import { Tarefa } from '../../../tarefa';
+import { Tarefa } from '../../../Tarefa';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-tasks',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './tasks.component.html',
   styleUrl: './tasks.component.css'
 })
